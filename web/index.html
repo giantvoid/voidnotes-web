@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>VoidNotes.org</title>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="description" content="Void Notes is a simple note-taking application for Linux, Windows and macOS. It is offers pleasing note-taking experience and deliberately minimalistic in features and UI design.">
+    <meta name="keywords" content="note-taking, notes, application, linux, windows, minimalist, ascetic, macos, java, free, open-source">
+    <meta name="author" content="Andriy Makarevych">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #ddd;
+            font: 16px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            padding-bottom: 1px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        a:hover {
+            #text-decoration: #aaa;
+            border-bottom-color: #aaa;
+        }
+
+        table {
+            display: inline-block;
+        }
+
+        .download table h2 {
+            color: #999;
+            font-weight: normal;
+            font-size: 1em;
+            margin: 0;
+        }
+
+        .download table td, .footer table td {
+            padding: 0 20px;
+        }
+
+        .screencast, .footer {
+            margin-top: 40px;
+        }
+
+        .footer .author {
+            color: #999;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <table>
+            <tr>
+                <td style="color: #777; text-align: right; vertical-align: middle; text-transform: uppercase;">
+                    <ul style="list-style-type: none;">
+                        <li>Very fast</li>
+                        <li>Free and open-source</li>
+                        <li>Cross-Platform</li>
+                    </ul>
+                </td>
+                <td>
+                    <img src="img/void_notes_logo.png" alt="Void Notes" style="width: 128px;" />
+                </td>
+                <td style="text-align: left; vertical-align: middle; text-transform: uppercase;">
+                    <h1>Void</h1>
+                    <h1>Notes</h1>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="download">
+        <table>
+            <tr>
+                <td><h2>Linux</h2></td>
+                <td><h2>Windows</h2></td>
+                <td><h2>macOS</h2></td>
+                <td><h2>Universal</h2></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/giantvoid/voidnotes/releases/download/v1.1/VoidNotes-x86_64.AppImage">AppImage (50.6 MB)</a></td>
+                <td><a href="https://github.com/giantvoid/voidnotes/releases/download/v1.1/VoidNotes-1.1.exe">Installer (.exe, 47.9 MB)</a></td>
+                <td><a href="https://github.com/giantvoid/voidnotes/releases/download/v1.1/VoidNotes-1.1.dmg">Installer (.dmg, 52.3 MB)</a></td>
+                <td><a href="https://github.com/giantvoid/voidnotes/releases/download/v1.1/VoidNotes-1.1.jar">Java Jar (.jar, 86 KB)</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><a href="https://github.com/giantvoid/voidnotes/releases/download/v1.1/VoidNotes-1.1-win-portable.zip">Portable (.zip, 45.9 MB)</a></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="screencast">
+        <img src="img/vn_screencast.gif" alt="Void Notes Screencast" />
+    </div>
+    <div class="footer">
+        <table>
+            <tr>
+                <td><a href="https://github.com/giantvoid/voidnotes">Source Code (GitHub)</a></td>
+                <td><a href="https://github.com/giantvoid/voidnotes-web">Website Source Code (GitHub)</a></td>
+            </tr>
+            <tr>
+                <td class="author" colspan="2">Written by Andriy Makarevych, 2023. Licensed under Apache-2.0.</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
